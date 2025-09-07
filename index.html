@@ -17,17 +17,12 @@
       </div>
       <ul
         tabindex="0"
-        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-        <li><a>Item 1</a></li>
+        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-38 p-2 shadow">
         <li>
-          <a>Parent</a>
-          <ul class="p-2">
-            <li><a>Submenu 1</a></li>
-            <li><a>Submenu 2</a></li>
-          </ul>
+            <li><a>About</a></li>
+            <li><a>Gallery</a></li>
+            <li><a>Plant a Tree</a></li>
         </li>
-        <li><a>Item 3</a></li>
-      </ul>
     </div>
     <a class="btn btn-ghost text-2xl font-semibold  text-white">Green Earth</a>
   </div>
@@ -44,15 +39,15 @@
 </div>
    </nav>
 
-   <header class="flex items-center bg-[#CFF0DC]">
-    <div><img src="./assets/hero-leaf1.png" alt=""></div>
-        <div class=" space-y-3 text-center">
-        <h1 class="font-bold text-4xl ">Plant a Tree, Grow a Future</h1>
-        <p class="text-[#1F2937]">Join our mission to plant 1 million trees and make the Earth greener for future
+   <header class="flex items-center flex-col pt-5 pb-5 md:pb-0 md:flex-row bg-[#CFF0DC]">
+    <div class="hidden lg:block"><img  src="./assets/hero-leaf1.png" alt=""></div>
+        <div class=" space-y-6 text-center">
+        <h1 class=" font-bold text-2xl  md:text-4xl">Plant a Tree, Grow a Future</h1>
+        <p class="text-[#1F2937] ">Join our mission to plant 1 million trees and make the Earth greener for future
         generations.</p>
          <a class="btn  bg-[#FACC15] border-0 rounded-3xl text-[#15803D]">Get Involved</a>
     </div>
-    <div><img src="./assets/hero-leaf2.png" alt=""></div>
+    <div  class="hidden lg:block" ><img src="./assets/hero-leaf2.png" alt=""></div>
    </header>
 
    <section class="py-15 bg-[#F0FDF4]">
@@ -65,12 +60,12 @@
     </div>
    </section>
 
-   <section class="py-10 px-80  bg-[#F0FDF4]">
-     <div class="text-center font-semibold text-2xl my-7">About the Campaign</div>
-     <div class="flex items-center gap-10">
-        <img class="w-90" src="./assets/about.png" alt="">
-        <div class="space-y-3 ">
-            <p class="text-[#1F293790]">Green Earth is a global tree plantation initiative dedicated to fighting climate change. Since our start, we’ve planted over 500,000 trees worldwide. By joining our campaign, you help restore forests, create habitats for wildlife, and combat global warming.</p>
+   <section class="py-10 px-4 md:py-10 md:px-80  bg-[#F0FDF4]">
+     <div class="text-center font-semibold text-xl my-7 md:text-2xl">About the Campaign</div>
+     <div class="flex flex-col md:flex-row items-center gap-5">
+        <img class="w-80 rounded-xl  md:w-90" src="./assets/about.png" alt="">
+        <div class="space-y-3 m-7 ">
+            <p class="text-[#1F293790] text-base md:tex-lg  ">Green Earth is a global tree plantation initiative dedicated to fighting climate change. Since our start, we’ve planted over 500,000 trees worldwide. By joining our campaign, you help restore forests, create habitats for wildlife, and combat global warming.</p>
             <ul class="text-[#1F293790] list-disc pl-5">
                 <li> Restoration of natural habitats</li>
                 <li>Improvement of air quality</li>
@@ -82,23 +77,23 @@
 
    <section class="bg-[#CFF0DC] py-17">
     <h1  class="text-center font-semibold text-2xl my-7">Our Impact</h1>
-    <div class="flex justify-around ">
-        <div class="bg-white py-7 px-30 rounded-xl text-center">
+    <div class="grid grid-cols-1 space-y-3 md:grid-cols-3 md:space-x-10 mx-10">
+        <div class="bg-white py-7 px-30 rounded-xl text-center hover:bg-[#0f5f212f] hover:shadow-xl">
             <h3 class="font-bold text-xl text-[#15803D]">500K+</h3>
             <p class="text-[#1F293780]">Trees Planted</p>
         </div>
-        <div class="bg-white py-7 px-30 rounded-xl text-center">
+        <div class="bg-white py-7 px-30 rounded-xl text-center hover:bg-[#0f5f212f] hover:shadow-xl">
             <h3 class="font-bold text-xl text-[#15803D]">120+</h3>
             <p class="text-[#1F293780]">Communities Involved</p>
         </div>
-        <div class="bg-white py-7 px-30 rounded-xl text-center">
+        <div class="bg-white py-7 px-30 rounded-xl text-center hover:bg-[#0f5f212f] hover:shadow-xl">
             <h3 class="font-bold text-xl text-[#15803D]">30+</h3>
             <p class="text-[#1F293780]">Countries Reached</p>
         </div>
     </div>
    </section>
 
-   <section class="bg-[#166534] px-110 py-20">
+   <section class="bg-[#166534] px-10 py-5 md:px-120 md:py-20">
     <h1  class="text-center font-semibold text-2xl my-7 text-white">Plant a Tree Today</h1>
     <div class="bg-[#15803D] rounded-xl px-10 py-10 space-y-3">
         <input type="text" placeholder="Your Name" class="input w-full" />
