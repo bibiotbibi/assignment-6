@@ -49,32 +49,7 @@ const loadPlants =(id)=>{
 // }
 
 
-// const displayWordDetails = (plants) => {
-//   console.log(plants);
 
-//   const  detailsBox = document.getElementById ("details-container");
-//   detailsBox.innerHTML="";
-//   if(plants && plants.length > 0){
-//   const plant = plants[0];
-//   detailsBox.innerHTML = `
-//   <h2>${plant.name}</h2>
-//   <img src="${plant.image}" alt="">
-//   <p>Category:${plant.category}</p>
-//   <p>Price:${plant.price}</p>
-//   <p>Description:${plant.description}</p>
-//   `;
-// }
-// const modal=
-// document.getElementById("word_modal");
-// };
-// const modal = document.getElementById("word_modal");
-// const closeBtn = document.getElementById("close-modal-btn");
-//   if(modal){
-//     modal.showModal();
-//   }
-//   else {
-//     console.error("close modal not found");
-  // }
 
   let cartItems = [];
 function addToCart(event){
